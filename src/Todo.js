@@ -32,7 +32,7 @@ function Todo() {
     
     <div className='add-item'>
     <input type="text" id="" placeholder="enter a task"  value={inputData} onChange={(e)=>{setInputData(e.target.value)}}/>
-    <button className="myButton" onClick={addItems}>Click Me</button>
+    <button className="myButton" onClick={addItems}>Add</button>
     </div>
 
 
